@@ -13,7 +13,7 @@ const App = () => {
   }
   var spans = document.querySelectorAll("span");
   spans.forEach(spanme => {
-    setInterval(rotation, 200, spanme, 100);
+    setInterval(rotation, 200, spanme, 300);
   });
 
   const [filter, setFilter] = useState("");

@@ -22,6 +22,7 @@ span {
   color: white;
   font-weight: bold;
   width: 80%;
+  max-width: 600px;
   margin: 1px;
   border-radius: 10px;
   font-size: 1.5rem;

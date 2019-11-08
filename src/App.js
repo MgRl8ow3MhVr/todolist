@@ -9,9 +9,9 @@ const App = () => {
 
   const [filter, setFilter] = useState("");
   const [todo, setTodo] = useState([
-    ["Ast", false],
-    ["Dst", false],
-    ["Bst", false]
+    ["Do Zis", false],
+    ["Do Zat", false],
+    ["Hurry Up", false]
   ]);
   // Preparation de la liste des taches
 
@@ -51,7 +51,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>My To Do List</h1>
+      <h1>Do it Do it DO it do IT</h1>
       {todolist}
 
       <Form todo={todo} setTodo={setTodo}></Form>

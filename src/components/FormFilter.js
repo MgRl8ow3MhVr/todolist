@@ -14,13 +14,13 @@ const FormFilter = props => {
       <input
         type="text"
         value={term}
-        placeholder="filter me"
+        placeholder="I filter my todolist because"
         onChange={event => {
           setTerm(event.target.value);
         }}
       ></input>
 
-      <input className="submit" type="submit" value="goFilter!"></input>
+      <input className="submit" type="submit" value="I'm LazY"></input>
     </form>
   );
 };

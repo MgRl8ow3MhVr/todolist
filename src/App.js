@@ -7,6 +7,15 @@ import FormFilter from "./components/FormFilter";
 const App = () => {
   console.log("Load");
 
+  function rotation(element, num) {
+    let degres = (Math.random() * 360) / num;
+    element.style.transform = `rotate(${degres}deg)`;
+  }
+  var spans = document.querySelectorAll("span");
+  spans.forEach(spanme => {
+    setInterval(rotation, 200, spanme, 100);
+  });
+
   const [filter, setFilter] = useState("");
   const [todo, setTodo] = useState([
     ["Do Zis", false],

@@ -4,10 +4,10 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
-function rotation(element, num) {
-  let degres = (Math.random() * 360) / num;
-  element.style.transform = `rotate(${degres}deg)`;
-}
+// function rotation(element, num) {
+//   let degres = (Math.random() * 360) / num;
+//   element.style.transform = `rotate(${degres}deg)`;
+// }
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
@@ -16,7 +16,7 @@ ReactDOM.render(<App />, document.getElementById("root"));
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
 
-var spans = document.querySelectorAll("span");
-spans.forEach(spanme => {
-  setInterval(rotation, 200, spanme, 100);
-});
+// var spans = document.querySelectorAll("span");
+// spans.forEach(spanme => {
+//   setInterval(rotation, 200, spanme, 100);
+// });

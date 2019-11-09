@@ -5,22 +5,16 @@ const FormFilter = props => {
   const { setFilter } = props;
 
   return (
-    <form
-      onSubmit={event => {
-        event.preventDefault();
-        setFilter(term);
-      }}
-    >
+    <form>
       <input
         type="text"
         value={term}
-        placeholder="I filter my todolist because"
+        placeholder="Filter me"
         onChange={event => {
+          setFilter(event.target.value);
           setTerm(event.target.value);
         }}
       ></input>
-
-      <input className="submit" type="submit" value="I'm LazY"></input>
     </form>
   );
 };

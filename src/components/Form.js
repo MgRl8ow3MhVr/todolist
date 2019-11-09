@@ -17,7 +17,7 @@ const Form = props => {
       <input
         type="text"
         value={newTask}
-        placeholder="More to do !!"
+        placeholder="More to do !"
         onChange={event => {
           setNewTask(event.target.value);
         }}

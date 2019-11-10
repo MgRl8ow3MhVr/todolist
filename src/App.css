@@ -53,8 +53,8 @@ span:hover {
   background-color: rgb(148, 9, 9);
   color: white;
   text-decoration: none;
-  /* animation: bounceIn 1s infinite; */
-  animation-delay: 10s;
+  animation: bounceIn 1s infinite;
+  animation-delay: 5s;
 }
 
 .lined {
@@ -147,7 +147,7 @@ input {
   right: -30px;
   animation: doit 1s infinite;
   opacity: 0;
-  animation-delay: 20s;
+  animation-delay: 10s;
 }
 
 @keyframes doit {
@@ -176,7 +176,7 @@ input {
   transform: scale(1.1);
   opacity: 0;
   /* animation: arrow 1s infinite; */
-  animation-delay: 20s;
+  animation-delay: 10s;
 }
 
 @keyframes arrow {
@@ -198,9 +198,9 @@ input {
   padding: 3px;
   top: 5px;
   left: 60px;
-  /* animation: now 1s infinite; */
+  animation: now 1s infinite;
   opacity: 0;
-  animation-delay: 30s;
+  animation-delay: 15s;
 }
 
 @keyframes now {
